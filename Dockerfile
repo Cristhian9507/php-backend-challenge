@@ -29,3 +29,4 @@ RUN composer global require laravel/installer
 RUN apt install -y nodejs npm
 
 WORKDIR /project
+COPY . .
